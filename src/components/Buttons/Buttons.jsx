@@ -19,7 +19,6 @@ export const Button = ({ options, onLeaveFeedback }) => {
 };
 
 Button.propTypes = {
-  options: PropTypes.arrayOf(PropTypes.oneOf(['good', 'neutral', 'bad']))
-    .isRequired,
-  onLeaveFeedback: PropTypes.func.isRequired,
+  options: PropTypes.arrayOf(PropTypes.oneOf(['good', 'neutral', 'bad'])),
+  onLeaveFeedback: PropTypes.func,
 };
